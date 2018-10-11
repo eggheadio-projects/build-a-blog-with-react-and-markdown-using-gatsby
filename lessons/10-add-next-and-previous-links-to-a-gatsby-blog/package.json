@@ -1,6 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "10-add-next-and-previous-links-to-a-gatsby-blog",
   "description": "My Blog",
+  "version": "0.0.0-unversioned",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

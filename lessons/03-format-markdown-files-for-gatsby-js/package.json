@@ -1,6 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "03-format-markdown-files-for-gatsby-js",
   "description": "My Blog",
+  "version": "0.0.0-unversioned",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

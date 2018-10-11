@@ -1,6 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "08-build-gatsby-page-slugs-dynamically-from-markdown-with-gatsby-node-js",
   "description": "My Blog",
+  "version": "0.0.0-unversioned",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

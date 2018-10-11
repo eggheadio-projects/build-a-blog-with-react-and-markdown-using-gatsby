@@ -1,6 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "06-organize-react-components-in-a-gatsby-project",
   "description": "My Blog",
+  "version": "0.0.0-unversioned",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

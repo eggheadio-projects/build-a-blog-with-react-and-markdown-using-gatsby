@@ -1,6 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "09-build-a-blog-post-template-with-graphql-and-gatsby",
   "description": "My Blog",
+  "version": "0.0.0-unversioned",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

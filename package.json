@@ -1,0 +1,17 @@
+{
+  "repository": "git@github.com:eggheadio-projects/build-a-blog-with-react-and-markdown-using-gatsby.git",
+  "workspaces": [
+    "lessons/*"
+  ],
+  "scripts": {
+    "start": "aux() { cd $(ls -d lessons/*\"$1\"*) && yarn run develop; }; aux",
+    "clean": "rm -rf lessons/*/{public,.cache}",
+    "clean:node_modules": "find . -name node_modules -maxdepth 3 -exec rm -rf {} +",
+    "format": "prettier **/*.{js,json,ts} -l --write --ignore-path .gitignore || :",
+    "latest": "yarn upgrade-interactive --latest && yarn upgrade -L"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  },
+  "private": true
+}
